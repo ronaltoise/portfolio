@@ -1,1 +1,1 @@
-permalink: /par.html
+permalink: /index.html
