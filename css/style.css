@@ -14,42 +14,42 @@ body
 	width:100%;
 
 }
-	
+
 header
 {
 	height: 120px;
 	line-height: 120px;
 	position:fixed;
 	z-index:1;
-	width: 100%;	
+	width: 100%;
 }
 .secondary
 {
 	background-color:black;
 	box-shadow:0px 0px 17px 0px;
 	transition: all 1.0s ease-in;
-	
+
 }
 ul
 {
 	list-style: none;
-	
+
 }
 ul li
 {
 	display:inline-block;
-}	
+}
 header nav
 {
 	float:right;
 }
 .logo img
 {
-	margin-top:-2px;
+	margin-top:0px;
 }
 header nav ul li a
 {
-	padding-right:20px;
+	padding-right:30px;
 	font-weight:bold;
 	color:white;
 	transition: all 0.5s ease-in;
@@ -70,7 +70,7 @@ header nav ul li a:hover
 	width:100%;
 	color: white;
 	text-align:center;
-	
+
 }
 .slider h2
 {
@@ -81,7 +81,7 @@ header nav ul li a:hover
 {
 	color:orange;
 }
-.slider a	
+.slider a
 {
 	padding: 10px 30px;
 	margin-right: 10px;
@@ -97,6 +97,10 @@ header nav ul li a:hover
 .slider .fa-linkedin
 {
 	color: 	#1395ec;
+}
+.slider .fa-gamepad
+{
+	text-decoration: none;
 }
 .slider .fa-instagram:hover
 {
@@ -146,11 +150,7 @@ header nav ul li a:hover
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/image3.jpg);
 	background-size: 100% 100%;
 }
-.slider i
-{
-	font-size:50px;
-	margin-right:10px;
-}
+
 .slider ul li .fab
 {
 	padding: 10px 10px;
@@ -209,7 +209,7 @@ header nav ul li a:hover
 	margin-left: -12%;
 	width: 24%;
 	height: 1px;
-	background-color:#00CCFF; 	
+	background-color:#00CCFF;
 }
 
 .sub-heading p
@@ -229,12 +229,12 @@ header nav ul li a:hover
 	margin: 50px 0px 0px;
 	text-align:center;
 	padding:70px 25px 40px;
-	
+
 }
 .intro-block:hover, intro-block.active
 {
 	background:midnightblue;
-	
+
 }
 .intro-block:hover
 {
@@ -243,7 +243,7 @@ header nav ul li a:hover
 	-moz-transition:0.6s ease;
 	-ms-transition:0.6s ease;
 	-o-transition:0.6s ease;
-	
+
 }
 .intro-block .intro-icon
 {
@@ -251,7 +251,7 @@ header nav ul li a:hover
 	top:-31px;
 	left:50%;
 	margin-left:-31px;
-	
+
 }
 .intro-block .fas
 {
@@ -263,7 +263,7 @@ header nav ul li a:hover
 	background:midnightblue;
 	border-radius:50%;
 	box-shadow:0px 0px 0px 10px midnightblue;
-	
+
 }
 .intro-block:hover .f, .intro-block.active .fas
 {
@@ -282,7 +282,7 @@ header nav ul li a:hover
 .intro-block p
 {
 	color: darkslategray;
-	
+
 }
 .intro-block:hover h3, .intro-block:hover p
 {
@@ -308,7 +308,7 @@ header nav ul li a:hover
 }
 .single-feature h3
 {
-	color: white;	
+	color: white;
 }
 .single-feature
 {
@@ -324,7 +324,7 @@ header nav ul li a:hover
 	-o-transition: 0.3s ease;
 	-ms-transition: 0.3s ease;
 	-moz-transition: 0.3s ease;
-	
+
 }
 .feature-block:after
 {
@@ -369,9 +369,9 @@ header nav ul li a:hover
 {
 	border:2px solid midnightblue;
 	background: white;
-	color: midnightblue;	
+	color: midnightblue;
 }
-.single-feature:nth-of-type(even)  
+.single-feature:nth-of-type(even)
 {
 	border-right:none;
 }
