@@ -10,7 +10,7 @@
 }
 body
 {
-	height:100%;
+	height:100\%;
 	width:100%;
 
 }
@@ -54,6 +54,36 @@ header nav ul li a
 	color:white;
 	transition: all 0.5s ease-in;
 }
+#fb
+{
+	color:	#0066CC;
+	text-decoration:none;
+}
+#fb:hover
+{
+	color:#2243B6;
+	transition:1sec ease-in;
+}
+#insta
+{
+	color:	#E936A7;
+	text-decoration:none;
+}
+#insta:hover
+{
+	color:#FF007C;
+		transition:1sec ease-in;
+}
+#ld
+{
+	color:		#00CCCC;
+		text-decoration:none;
+}
+#ld:hover	
+{
+	color:	#0A7E8C;
+		transition:1sec ease-in;
+}
 header nav ul li a:hover
 {
 	text-decoration:none;
@@ -63,10 +93,23 @@ header nav ul li a:hover
 {
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/hello.jpg);
 	background-size: 100% 100%;
+	margin-top:0px;
+}
+.img2
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/image2.jpg);
+	background-size: 100% 100%;
+	margin-top:0px;
+}
+.img3
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/image3.jpg);
+	background-size: 100% 100%;
+	margin-top:0px;
 }
 .slider, .slider ul, .slider ul li
 {
-	height:710px;
+	height:100%;
 	width:100%;
 	color: white;
 	text-align:center;
@@ -86,70 +129,99 @@ header nav ul li a:hover
 	padding: 10px 30px;
 	margin-right: 10px;
 }
-.slider .fa-instagram
-{
-	color: #ff0080;
-}
-.slider .fa-facebook
-{
-	color: 	#0066ff;
-}
-.slider .fa-linkedin
-{
-	color: 	#1395ec;
-}
+
 .slider .fa-gamepad
 {
 	text-decoration: none;
+	color:#0048BA;
 }
-.slider .fa-instagram:hover
+.slider .fa-gamepad:hover{
+	color:	#33CC99;
+}
+.slider .fa-calculator
 {
-	color: 	#f20d0d;
-	transition: 0.5s ease-in;
+	text-decoration: none;
+	color:	#8FD400;
 }
-.slider .fa-facebook:hover
+.slider .fa-calculator:hover{
+	color:	#5E8C31;
+}
+.slider .fa-headphones
 {
-	color: 	#002e4d;
-	transition: 0.5s ease-in;
+	text-decoration: none;
+	color:#0048BA;
 }
-.slider .fa-linkedin:hover
-{
-	color: #002966;
-	transition: 0.5s ease-in;
+.slider .fa-headphones:hover{
+	color:	#33CC99;
 }
-
-.slider a.btn-half
+#bt1 a.btn-half
 {
 	background-color:Midnightblue;
 	color:white;
 	transition:0.5s ease-in;
 }
-.slider a.btn-half:hover
+#bt1 a.btn-half:hover
 {
 	background-color:dodgerblue;
 	opacity:0.7;
 }
-.slider a.btn-full
+#bt1 a.btn-full
 {
 	background-color:orange;
 	color:white;
 	transition:0.5s ease-in;
 }
-.slider a.btn-full:hover
+#bt1 a.btn-full:hover
 {
 	background-color:coral;
 	opacity:0.7;
 }
-.img2
+#bt2 a.btn-half
 {
-	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/image2.jpg);
-	background-size: 100% 100%;
+	background-color:	#D92121;
+	color:white;
+	transition:0.5s ease-in;
 }
-.img3
+#bt2 a.btn-half:hover
 {
-	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/image3.jpg);
-	background-size: 100% 100%;
+	background-color:	#FE4C40;
+	opacity:0.7;
 }
+#bt2 a.btn-full
+{
+	background-color:	#87FF2A;
+	color:black;
+	transition:0.5s ease-in;
+}
+#bt2 a.btn-full:hover
+{
+	background-color:#5E8C31;
+	color:white;
+	opacity:0.7;
+}
+#bt3 a.btn-half
+{
+	background-color:	#C46210;
+	color:white;
+	transition:0.5s ease-in;
+}
+#bt3 a.btn-half:hover
+{
+	background-color:	#E97451;
+	opacity:0.7;
+}
+#bt3 a.btn-full
+{
+	background-color:	#1560BD;
+	color:white;
+	transition:0.5s ease-in;
+}
+#bt3 a.btn-full:hover
+{
+	background-color:	#4F69C6;
+	opacity:0.7;
+}
+
 
 .slider ul li .fab
 {
