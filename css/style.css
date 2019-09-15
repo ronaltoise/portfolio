@@ -2,7 +2,7 @@
 {
 	margin:0px;
 	padding: 0px;
-	font-family: 'Courier New';
+	font-family: 'Droid Serif';
 	font-weight:bold;
 	font-style:oblique;
 	/* border:1px solid red; */
@@ -10,7 +10,7 @@
 }
 body
 {
-	height:100\%;
+	height:100%;
 	width:100%;
 
 }
@@ -109,7 +109,7 @@ header nav ul li a:hover
 }
 .slider, .slider ul, .slider ul li
 {
-	height:100%;
+	height:90%;
 	width:100%;
 	color: white;
 	text-align:center;
@@ -240,6 +240,7 @@ header nav ul li a:hover
 	padding:100px 0px;
 	text-align:center;
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/nice.jpg);
+	background-size:100% 100%;
 }
 .sub-heading
 {
@@ -385,17 +386,17 @@ header nav ul li a:hover
 .single-feature
 {
 	position:relative;
-	width:325px;
+	width:320px;
 	float: left;
-	padding: 30px 0;
+	padding: 10px 0;
 	text-align: center;
-	border-right:1px solid midnightblue;
-	border-bottom: 1px solid midnightblue;
-	transition: 0.3s ease;
-	-webkit-transition: 0.3s ease;
-	-o-transition: 0.3s ease;
-	-ms-transition: 0.3s ease;
-	-moz-transition: 0.3s ease;
+	border-right:2px solid midnightblue;
+	border-bottom: 2px solid midnightblue;
+	transition: 0.3s ease-in;
+	-webkit-transition: 0.3s ease-in;
+	-o-transition: 0.3s ease-in;
+	-ms-transition: 0.3s ease-in;
+	-moz-transition: 0.3s ease-in;
 
 }
 .feature-block:after
