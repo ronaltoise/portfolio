@@ -375,6 +375,10 @@ header nav ul li a:hover
 {
 	color: Orange;
 }
+.title a:hover
+{
+	text-decoration:none;
+}
 .feature-block p
 {
 	color: white;
