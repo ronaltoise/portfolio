@@ -94,22 +94,25 @@ header nav ul li a:hover
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/hello.jpg);
 	background-size: 100% 100%;
 	margin-top:0px;
+	margin-bottom:0px;
 }
 .img2
 {
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/image2.jpg);
 	background-size: 100% 100%;
 	margin-top:0px;
+	margin-bottom:0px;
 }
 .img3
 {
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/image3.jpg);
 	background-size: 100% 100%;
 	margin-top:0px;
+	margin-bottom:0px;
 }
 .slider, .slider ul, .slider ul li
 {
-	height:90%;
+	height:100%;
 	width:100%;
 	color: white;
 	text-align:center;
@@ -383,9 +386,9 @@ header nav ul li a:hover
 .single-feature
 {
 	position:relative;
-	width:320px;
+	width:360px;
 	float: left;
-	padding: 10px 0;
+	padding: 10px ;
 	text-align: center;
 	border-right:2px solid midnightblue;
 	border-bottom: 2px solid midnightblue;
@@ -394,7 +397,6 @@ header nav ul li a:hover
 	-o-transition: 0.3s ease-in;
 	-ms-transition: 0.3s ease-in;
 	-moz-transition: 0.3s ease-in;
-
 }
 .feature-block:after
 {
