@@ -463,6 +463,12 @@ header nav ul li a:hover
 	background: white;
 	color: midnightblue;
 }
+.single-feature:hover .featured-icon .fab
+{
+	border:2px solid midnightblue;
+	background: white;
+	color: midnightblue;
+}
 .single-feature:nth-of-type(even)
 {
 	border-right:none;
